@@ -7,9 +7,7 @@ import lombok.*;
 import java.util.ArrayList;
 import java.util.List;
 
-@Getter
-@Setter
-@ToString// Lombok annotation to generate getters and setters
+@Data// Lombok annotation to generate getters and setters
 @Entity      // JPA annotation to indicate that this class is an entity
 @AllArgsConstructor // Lombok annotation to generate all args constructors
 @NoArgsConstructor  // Lombok annotation to generate no args constructor
